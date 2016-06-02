@@ -18,3 +18,5 @@ RUN bundle install
 
 CMD bundle exec rackup --port 8080 --host 0.0.0.0
 
+curl http:unicornpoo.herokuapp.com/update/team1-lemonheads/complete
+
